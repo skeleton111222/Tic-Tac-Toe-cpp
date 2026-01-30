@@ -1,0 +1,35 @@
+# Ignore build files and directories
+/build/
+/bin/
+/out/
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore debug and release directories
+/debug/
+/release/
+
+# Ignore CMake files if you're using CMake for build
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Ignore temporary files created by the compiler
+*.dSYM/
+*.swp
+
+# Ignore core dump files
+core.*
